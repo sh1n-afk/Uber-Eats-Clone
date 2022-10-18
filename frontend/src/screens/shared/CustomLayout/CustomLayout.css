@@ -1,0 +1,59 @@
+.trigger-container {
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.trigger {
+  font-size: 20px;
+  padding: 8px;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: white;
+}
+
+.trigger:hover {
+  color: black;
+}
+.logout-container {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.site-layout-container {
+  height: 100%;
+}
+.site-layout .site-layout-header-background {
+  background: #1891FF;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+  overflow: auto;
+}
+.title-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+.title-container .title-first {
+  color: white;
+}
+.title-container .title-second {
+  font-weight: bold;
+  color: black;
+}
+.welcome-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+.padded-container {
+  padding-right: 8px;
+}

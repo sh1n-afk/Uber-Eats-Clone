@@ -1,0 +1,18 @@
+.space-container {
+  width: 100%;
+}
+.auth-form-button {
+  width: 100%;
+}
+.login-button {
+  border-color: #02d41e;
+  background: #02d41e;
+}
+.login-button:hover {
+  border-color: #02d41e;
+  background: #02d41e;
+}
+.login-button:focus {
+  border-color: #02d41e;
+  background: #02d41e;
+}

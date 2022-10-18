@@ -1,0 +1,23 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-container {
+  width: 144px;
+  height: 144px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.avatar {
+  width: 100%;
+  height: 100%;
+}
+.avatar-img {
+  width: 100%;
+}
+
+.button_view {
+  width: 144px;
+  text-align: center;
+}

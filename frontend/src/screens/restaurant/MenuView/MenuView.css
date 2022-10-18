@@ -1,0 +1,33 @@
+.itemCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemCard-child {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.item-price-container {
+  align-self: flex-end;
+}
+.item-price-container > div {
+  padding: 2px 0;
+}
+.item-price {
+  font-weight: bold;
+}
+.item-image-container .ant-image {
+  height: 100%;
+}
+
+.item-list-container {
+  padding: 15px 25px;
+  width: 100%;
+}
+
+.itemImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
